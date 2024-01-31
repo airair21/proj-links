@@ -1,0 +1,394 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;     
+}
+
+@font-face {
+    font-family: 'PressuraMono';
+    src: url(GT-Pressura-Extended-Medium-Trial.woff2);
+    /* src: url('webfont.eot'); IE9 Compat Modes */
+    /* src: url('webfont.eot?#iefix') format('embedded-opentype'), IE6-IE8 */
+         /* url('GT-Pressura-Extended-Medium-Trial.woff2') format('woff2'), Super Modern Browsers */
+         /* url('webfont.woff') format('woff'), /* Pretty Modern Browsers */
+         /* url('webfont.ttf')  format('truetype'), Safari, Android, iOS */
+         /* url('webfont.svg#svgFontName') format('svg'); Legacy iOS */ */
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    transition: .5s;
+    font-family: 'PressuraMono';
+}
+h2 {
+    margin-top: 10%;
+    transition: .5s;
+}
+
+
+.container{
+    width: 33.34%;
+    height: 100vh;
+    color: white;
+    background-color: black;
+    /* border: 10px solid salmon; */
+    display: flex;
+    flex-direction: column;
+    transition: .5s;
+    text-align: center;
+}
+
+/* .topspace {
+    height: 30%;
+    background-color: blue;
+    display: flex;
+} */
+
+#a1 {
+    background-color:rgb(222, 242, 3);
+    border-color: blueviolet;
+    /* border: 10px solid pink; */
+
+    width: 30%;
+    /* flex-grow: 1; */
+    height: 7%;
+    margin-top: 30%;
+    align-self: center;
+    border-radius: 20%;
+    transition: .5s;
+}
+#a2 {
+    background-color:rgb(222, 242, 3);
+    border-color: blueviolet;
+    /* border: 10px solid pink; */
+
+    width: 60%;
+    /* flex-grow: 1; */
+    height: 14%;
+    /* margin-top: 20%; */
+    align-self: center;
+    border-radius: 20%;
+    transition: .5s;
+}
+#a3 {
+    background-color:rgb(222, 242, 3);
+    border-color: blueviolet;
+    /* border: 10px solid pink; */
+
+    width: 75%;
+    /* flex-grow: 1; */
+    height: 14%;
+    /* margin-top: 20%; */
+    align-self: center;
+    border-radius: 20%;
+    transition: .5s;
+}
+#a4 {
+    background-color:rgb(222, 242, 3);
+    border-color: blueviolet;
+    /* border: 10px solid pink; */
+
+    width: 75%;
+    /* flex-grow: 1; */
+    height: 14%;
+    /* margin-top: 20%; */
+    align-self: center;
+    border-radius: 20%;
+    transition: .5s;
+}
+#a5 {
+    background-color:rgb(222, 242, 3);
+    border-color: blueviolet;
+    /* border: 10px solid pink; */
+
+    width: 55%;
+    /* flex-grow: 1; */
+    height: 7%;
+    /* margin-top: 20%; */
+    align-self: center;
+    border-radius: 20%;
+    transition: .5s;
+}
+
+.container:hover #a1 {
+    width: 15%;
+    background-color:rgb(242, 3, 47);
+    rotate: 90deg;
+    height: 22%;
+    border-radius: 33%;
+}
+.container:hover #a2 {
+    width: 15%;
+    background-color:rgb(242, 3, 47);
+    rotate: 90deg;
+    height: 22%;
+    border-radius: 33%;
+}
+.container:hover #a3 {
+    width: 15%;
+    background-color:rgb(242, 3, 47);
+    rotate: 90deg;
+    height: 22%;
+    border-radius: 33%;
+}
+.container:hover #a4 {
+    width: 15%;
+    background-color:rgb(242, 3, 47);
+    rotate: 90deg;
+    height: 22%;
+    border-radius: 33%;
+}
+.container:hover #a5 {
+    width: 15%;
+    background-color:rgb(242, 3, 47);
+    rotate: 90deg;
+    height: 22%;
+    border-radius: 33%;
+}
+.container:hover h2 {
+    color: rgb(123, 181, 41);
+}
+
+
+
+
+.container2{
+    width: 33.34%;
+    height: 100vh;
+    color: white;
+    background-color: black;
+    /* border: 10px solid salmon; */
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    text-align: center;
+    transition: .5s;
+}
+
+#b1 {
+    background-color:rgb(222, 242, 3);
+    border-color: blueviolet;
+    /* border: 10px solid pink; */
+
+    width: 30%;
+    /* flex-grow: 1; */
+    height: 7%;
+    margin-top: 30%;
+    align-self: center;
+    border-radius: 20%;
+    transition: .5s;
+}
+#b2 {
+    background-color:rgb(222, 242, 3);
+    border-color: blueviolet;
+    /* border: 10px solid pink; */
+
+    width: 60%;
+    /* flex-grow: 1; */
+    height: 14%;
+    /* margin-top: 20%; */
+    align-self: center;
+    border-radius: 20%;
+    transition: .5s;
+}
+#b3 {
+    background-color:rgb(222, 242, 3);
+    border-color: blueviolet;
+    /* border: 10px solid pink; */
+
+    width: 75%;
+    /* flex-grow: 1; */
+    height: 14%;
+    /* margin-top: 20%; */
+    align-self: center;
+    border-radius: 20%;
+    transition: .5s;
+}
+#b4 {
+    background-color:rgb(222, 242, 3);
+    border-color: blueviolet;
+    /* border: 10px solid pink; */
+
+    width: 75%;
+    /* flex-grow: 1; */
+    height: 14%;
+    /* margin-top: 20%; */
+    align-self: center;
+    border-radius: 20%;
+    transition: .5s;
+}
+#b5 {
+    background-color:rgb(222, 242, 3);
+    border-color: blueviolet;
+    /* border: 10px solid pink; */
+
+    width: 55%;
+    /* flex-grow: 1; */
+    height: 7%;
+    /* margin-top: 20%; */
+    align-self: center;
+    border-radius: 20%;
+    transition: .5s;
+}
+
+.container2:hover #b1 {
+    width: 15%;
+    background-color:rgb(244, 93, 0);
+    rotate: 90deg;
+    height: 10%;
+    border-radius: 33%;
+}
+.container2:hover #b2 {
+    width: 15%;
+    background-color:rgb(244, 93, 0);
+    rotate: 90deg;
+    height: 20%;
+    border-radius: 33%;
+}
+.container2:hover #b3 {
+    width: 15%;
+    background-color:rgb(244, 93, 0);
+    rotate: 90deg;
+    height: 10%;
+    border-radius: 33%;
+}
+.container2:hover #b4 {
+    width: 15%;
+    background-color:rgb(244, 93, 0);
+    rotate: 90deg;
+    height: 20%;
+    border-radius: 33%;
+}
+.container2:hover #b5 {
+    width: 15%;
+    background-color:rgb(244, 93, 0);
+    rotate: 90deg;
+    height: 10%;
+    border-radius: 33%;
+}
+.container2:hover h2 {
+    color: rgb(123, 181, 41);
+}
+
+
+
+
+.container3{
+    width: 33.34%;
+    height: 100vh;
+    color: white;
+    background-color: black;
+    /* border: 10px solid salmon; */
+    display: flex;
+    flex-direction: column;
+    position: inherit;
+    text-align: center;
+    transition: .5s;
+}
+
+#c1 {
+    background-color:rgb(222, 242, 3);
+    border-color: blueviolet;
+    /* border: 10px solid pink; */
+
+    width: 30%;
+    /* flex-grow: 1; */
+    height: 7%;
+    margin-top: 30%;
+    align-self: center;
+    border-radius: 20%;
+    transition: .5s;
+}
+#c2 {
+    background-color:rgb(222, 242, 3);
+    border-color: blueviolet;
+    /* border: 10px solid pink; */
+
+    width: 60%;
+    /* flex-grow: 1; */
+    height: 14%;
+    /* margin-top: 20%; */
+    align-self: center;
+    border-radius: 20%;
+    transition: .5s;
+}
+#c3 {
+    background-color:rgb(222, 242, 3);
+    border-color: blueviolet;
+    /* border: 10px solid pink; */
+
+    width: 75%;
+    /* flex-grow: 1; */
+    height: 14%;
+    /* margin-top: 20%; */
+    align-self: center;
+    border-radius: 20%;
+    transition: .5s;
+}
+#c4 {
+    background-color:rgb(222, 242, 3);
+    border-color: blueviolet;
+    /* border: 10px solid pink; */
+
+    width: 75%;
+    /* flex-grow: 1; */
+    height: 14%;
+    /* margin-top: 20%; */
+    align-self: center;
+    border-radius: 20%;
+    transition: .5s;
+}
+#c5 {
+    background-color:rgb(222, 242, 3);
+    border-color: blueviolet;
+    /* border: 10px solid pink; */
+
+    width: 55%;
+    /* flex-grow: 1; */
+    height: 7%;
+    /* margin-top: 20%; */
+    align-self: center;
+    border-radius: 20%;
+    transition: .5s;
+}
+
+.container3:hover #c1 {
+    width: 10%;
+    background-color:rgb(255, 179, 0);
+    rotate: 90deg;
+    height: 10%;
+    border-radius: 33%;
+}
+.container3:hover #c2 {
+    width: 10%;
+    background-color:rgb(255, 179, 0);
+    rotate: 90deg;
+    height: 10%;
+    border-radius: 33%;
+}
+.container3:hover #c3 {
+    width: 10%;
+    background-color:rgb(255, 179, 0);
+    rotate: 90deg;
+    height: 10%;
+    border-radius: 33%;
+}
+.container3:hover #c4 {
+    width: 10%;
+    background-color:rgb(255, 179, 0);
+    rotate: 90deg;
+    height: 10%;
+    border-radius: 33%;
+}
+.container3:hover #c5 {
+    width: 10%;
+    background-color:rgb(255, 179, 0);
+    rotate: 90deg;
+    height: 10%;
+    border-radius: 33%;
+}
+.container3:hover h2 {
+    color: rgb(123, 181, 41);
+}
