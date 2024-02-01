@@ -22,7 +22,7 @@ body {
     flex-direction: column;
     transition: .5s;
     font-family: 'PressuraMono';
-    background-color: midnightblue;
+    background-color: rgb(10, 10, 63);;
 }
 h2 {
     margin-top: 10%;
@@ -40,6 +40,7 @@ p {
     transition: 7s;
     font-size: 3pt;
     line-height: 10%;
+    -webkit-text-stroke: .5px aliceblue;
 }
 
 p:hover {
@@ -47,6 +48,7 @@ p:hover {
     text-align: justify;
     color: aliceblue;
     line-height: 55%;
+    -webkit-text-stroke: 8px rgb(10, 10, 63);
 }
 
 
@@ -98,7 +100,7 @@ p:hover {
     flex-grow: 7;
     height: 85vh;
     color: white;
-    background-color: midnightblue;
+    background-color: rgb(10, 10, 63);;
     /* border: 10px solid salmon; */
     display: flex;
     flex-direction: column;
@@ -189,7 +191,7 @@ p:hover {
         background-color: red;
         border-bottom-left-radius: 50%;
         border-top-left-radius: 50%;
-        line-height: 11vh;
+        line-height: 9.5vh;
     }
 
 
@@ -223,7 +225,7 @@ p:hover {
     flex-grow: 7;
     height: 85vh;
     color: white;
-    background-color: midnightblue;
+    background-color: rgb(10, 10, 63);;
     /* border: 10px solid salmon; */
     display: flex;
     flex-direction: column;
@@ -310,7 +312,7 @@ p:hover {
 .container2:hover {
     flex-grow: 5;
     background-color: green;
-    line-height: 11vh;
+    line-height: 9.5vh;
 }
 
 
@@ -320,7 +322,7 @@ p:hover {
     flex-grow: 7;
     height: 85vh;
     color: white;
-    background-color: midnightblue;
+    background-color: rgb(10, 10, 63);
     /* border: 10px solid salmon; */
     display: flex;
     flex-direction: column;
@@ -408,7 +410,7 @@ p:hover {
 
     border-bottom-right-radius: 50%;
     border-top-right-radius: 50%;
-    line-height: 11vh;
+    line-height: 9.5vh;
 }
 
 /* .cog:hover, .container3:hover {
