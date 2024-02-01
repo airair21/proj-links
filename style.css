@@ -22,7 +22,7 @@ body {
     flex-direction: column;
     transition: .5s;
     font-family: 'PressuraMono';
-    background-color: rgb(123, 181, 41);
+    background-color: midnightblue;
 }
 h2 {
     margin-top: 10%;
@@ -30,11 +30,48 @@ h2 {
 
     animation-duration: 1.5s;
     animation-name: slidein;
+    font-size: 22pt;
 }
+h3 {
+    color: white;
+}
+p {
+    color: rgb(108, 108, 188);
+    transition: 7s;
+    font-size: 3pt;
+    line-height: 10%;
+}
+
+p:hover {
+    font-size: 333pt;
+    text-align: justify;
+    color: aliceblue;
+    line-height: 55%;
+}
+
+
+#proj2:hover {
+    font-size: 77pt;
+}
+#proj3:hover {
+    font-size: 77pt;
+}
+#proj4:hover {
+    font-size: 77pt;
+}
+
 
 .proj {
     margin-top: 5%;
     text-align: center;
+}
+.text {
+    text-align: justify;
+    width: 80%;
+    align-self: center;
+    margin: 5%;
+
+    text-align: justify;
 }
 
 .abstract {
@@ -57,15 +94,17 @@ h2 {
 
 
 .container{
-    width: 33.34%;
+    /* width: 33.34%; */
+    flex-grow: 7;
     height: 85vh;
     color: white;
-    background-color: black;
+    background-color: midnightblue;
     /* border: 10px solid salmon; */
     display: flex;
     flex-direction: column;
     transition: .5s;
     text-align: center;
+    justify-content: center;
 }
 
 /* .topspace {
@@ -140,51 +179,26 @@ h2 {
     transition: .5s;
 }
 
-    .container:hover #a1 {
-        width: 15%;
-        background-color:rgb(242, 3, 47);
-        rotate: 90deg;
-        height: 42%;
-        border-radius: 33%;
-        margin-top: 10%;
-    }
-    .container:hover #a2 {
-        width: 8%;
-        background-color:rgb(242, 3, 47);
-        rotate: 90deg;
-        height: 22%;
-        border-radius: 33%;
-    }
-    .container:hover #a3 {
-        width: 8%;
-        background-color:rgb(242, 3, 47);
-        rotate: 90deg;
-        height: 22%;
-        border-radius: 33%;
-    }
-    .container:hover #a4 {
-        width: 8%;
-        background-color:rgb(242, 3, 47);
-        rotate: 90deg;
-        height: 22%;
-        border-radius: 33%;
-    }
-    .container:hover #a5 {
-        width: 15%;
-        background-color:rgb(242, 3, 47);
-        rotate: 90deg;
-        height: 42%;
-        border-radius: 33%;
-    }
+   
     .container:hover h2 {
-        color: rgb(123, 181, 41);
+        color: lightcoral;
+        font-size: 7pt;
+    }
+    .container:hover {
+        flex-grow: 1;
+        background-color: red;
+        border-bottom-left-radius: 50%;
+        border-top-left-radius: 50%;
+        line-height: 11vh;
     }
 
-.gog:hover, .container:hover {
-       /* animation: atoveg; */
+
+/* .gog:hover, .container:hover {
        border-radius: 20%;
        width: 100%;
-    }
+    } */
+
+
 
        /* @keyframes atoveg {
         0% {
@@ -205,21 +219,23 @@ h2 {
 
 
 .container2{
-    width: 33.34%;
+    /* width: 33.34%; */
+    flex-grow: 7;
     height: 85vh;
     color: white;
-    background-color: black;
+    background-color: midnightblue;
     /* border: 10px solid salmon; */
     display: flex;
     flex-direction: column;
     position: relative;
     text-align: center;
     transition: .5s;
+    justify-content: center;
 }
 
 #b1 {
     background-color:rgb(222, 242, 3);
-    border-color: blueviolet;
+
     /* border: 10px solid pink; */
 
     width: 30%;
@@ -232,7 +248,7 @@ h2 {
 }
 #b2 {
     background-color:rgb(222, 242, 3);
-    border-color: blueviolet;
+
     /* border: 10px solid pink; */
 
     width: 60%;
@@ -245,7 +261,7 @@ h2 {
 }
 #b3 {
     background-color:rgb(222, 242, 3);
-    border-color: blueviolet;
+
     /* border: 10px solid pink; */
 
     width: 75%;
@@ -258,7 +274,7 @@ h2 {
 }
 #b4 {
     background-color:rgb(222, 242, 3);
-    border-color: blueviolet;
+
     /* border: 10px solid pink; */
 
     width: 75%;
@@ -271,7 +287,6 @@ h2 {
 }
 #b5 {
     background-color:rgb(222, 242, 3);
-    border-color: blueviolet;
     /* border: 10px solid pink; */
 
     width: 55%;
@@ -283,70 +298,41 @@ h2 {
     transition: .5s;
 }
 
-    .container2:hover #b1 {
-        width: 10%;
-        background-color:rgb(244, 93, 0);
-        rotate: 90deg;
-        height: 10%;
-        border-radius: 33%;
-        margin-top: 10%;
-    }
-    .container2:hover #b2 {
-        width: 15%;
-        background-color:rgb(244, 93, 0);
-        rotate: 90deg;
-        height: 20%;
-        border-radius: 33%;
-    }
-    .container2:hover #b3 {
-        width: 10%;
-        background-color:rgb(244, 93, 0);
-        rotate: 90deg;
-        height: 10%;
-        border-radius: 33%;
-    }
-    .container2:hover #b4 {
-        width: 15%;
-        background-color:rgb(244, 93, 0);
-        rotate: 90deg;
-        height: 20%;
-        border-radius: 33%;
-    }
-    .container2:hover #b5 {
-        width: 10%;
-        background-color:rgb(244, 93, 0);
-        rotate: 90deg;
-        height: 10%;
-        border-radius: 33%;
-    }
+   
     .container2:hover h2 {
         color: rgb(123, 181, 41);
+        font-size: 7pt;
     }
-    .bog:hover, .container2:hover {
-        /* animation: atoveg; */
+    /* .bog:hover, .container2:hover {
         border-radius: 20%;
         width: 100%;
-     }
-
+     } */
+.container2:hover {
+    flex-grow: 5;
+    background-color: green;
+    line-height: 11vh;
+}
 
 
 
 .container3{
-    width: 33.34%;
+    /* width: 33.34%; */
+    flex-grow: 7;
     height: 85vh;
     color: white;
-    background-color: black;
+    background-color: midnightblue;
     /* border: 10px solid salmon; */
     display: flex;
     flex-direction: column;
     position: inherit;
     text-align: center;
     transition: .5s;
+    justify-content: center;
 }
 
 #c1 {
     background-color:rgb(222, 242, 3);
-    border-color: blueviolet;
+
     /* border: 10px solid pink; */
 
     width: 30%;
@@ -359,7 +345,7 @@ h2 {
 }
 #c2 {
     background-color:rgb(222, 242, 3);
-    border-color: blueviolet;
+
     /* border: 10px solid pink; */
 
     width: 60%;
@@ -372,7 +358,7 @@ h2 {
 }
 #c3 {
     background-color:rgb(222, 242, 3);
-    border-color: blueviolet;
+
     /* border: 10px solid pink; */
 
     width: 75%;
@@ -385,7 +371,7 @@ h2 {
 }
 #c4 {
     background-color:rgb(222, 242, 3);
-    border-color: blueviolet;
+
     /* border: 10px solid pink; */
 
     width: 75%;
@@ -398,7 +384,7 @@ h2 {
 }
 #c5 {
     background-color:rgb(222, 242, 3);
-    border-color: blueviolet;
+
     /* border: 10px solid pink; */
 
     width: 55%;
@@ -410,48 +396,22 @@ h2 {
     transition: .5s;
 }
 
-.container3:hover #c1 {
-    width: 10%;
-    background-color:rgb(255, 179, 0);
-    rotate: 90deg;
-    height: 10%;
-    border-radius: 33%;
-    margin-top: 10%;
-}
-.container3:hover #c2 {
-    width: 10%;
-    background-color:rgb(255, 179, 0);
-    rotate: 90deg;
-    height: 10%;
-    border-radius: 33%;
-}
-.container3:hover #c3 {
-    width: 10%;
-    background-color:rgb(255, 179, 0);
-    rotate: 90deg;
-    height: 10%;
-    border-radius: 33%;
-}
-.container3:hover #c4 {
-    width: 10%;
-    background-color:rgb(255, 179, 0);
-    rotate: 90deg;
-    height: 10%;
-    border-radius: 33%;
-}
-.container3:hover #c5 {
-    width: 10%;
-    background-color:rgb(255, 179, 0);
-    rotate: 90deg;
-    height: 10%;
-    border-radius: 33%;
-}
+
 .container3:hover h2 {
-    color: rgb(123, 181, 41);
+    color: lightblue;
+    font-size: 7pt;
+}
+.container3:hover {
+
+    background-color: blue;
+    flex-grow: 5;
+
+    border-bottom-right-radius: 50%;
+    border-top-right-radius: 50%;
+    line-height: 11vh;
 }
 
-.cog:hover, .container3:hover {
-       /* animation: atoveg; */
+/* .cog:hover, .container3:hover {
        border-radius: 20%;
        width: 100%;
-    }
+    } */
