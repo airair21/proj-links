@@ -454,8 +454,9 @@ a:hover {
     p {
         color: orangered;
         -webkit-text-stroke: 0px;
-        font-size: 888%;
+        font-size: 999%;
         line-height: 55%;
+        overflow-wrap: break-word;
     }
     h2 {
         margin-top: 5%;
