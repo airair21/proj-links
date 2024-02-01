@@ -534,4 +534,10 @@ a:hover {
             color: lightblue;
         }
 
+
+    .text {
+        text-align: justify;
+        width: 95%;
+    }
+
 }
