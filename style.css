@@ -462,7 +462,7 @@ a:hover {
         margin-top: 5%;
     }
     h3 {
-        font-size: 33pt;
+        font-size: 22pt;
         opacity: 50%;
         animation-name: appear2;
 
@@ -475,13 +475,13 @@ a:hover {
     }
 
     #proj2 {
-        font-size: 66pt;
+        font-size: 33pt;
     }
     #proj3 {
-        font-size: 66pt;
+        font-size: 33pt;
     }
     #proj4 {
-        font-size: 66pt;
+        font-size: 33pt;
     }
 
     @keyframes appear2 {
@@ -504,6 +504,7 @@ a:hover {
         border-top-left-radius: 50%;
         border-top-right-radius: 50%;
         border-bottom-left-radius: 0%;
+        height: 60vh;
     }
         .container h2 {
             color: lightcoral;
@@ -511,6 +512,7 @@ a:hover {
     .container2 {
         color: rgb(123, 181, 41);
         background-color: green;
+        height: 60vh;
     }
         .container2 h2 {
             color: rgb(123, 181, 41);
@@ -521,6 +523,7 @@ a:hover {
         border-bottom-left-radius: 50%;
         border-bottom-right-radius: 50%;
         border-top-right-radius: 0%;
+        height: 60vh;
     }
         .container3 h2 {
             color: lightblue;
