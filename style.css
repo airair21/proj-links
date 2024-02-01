@@ -464,7 +464,7 @@ a:hover {
         font-size: 33pt;
         opacity: 50%;
         animation-name: appear2;
-        
+
     }
 
     p:hover {
@@ -504,11 +504,25 @@ a:hover {
         border-top-right-radius: 50%;
         border-bottom-left-radius: 0%;
     }
+        .container h2 {
+            color: lightcoral;
+        }
     .container2 {
-
+        color: rgb(123, 181, 41);
+        background-color: green;
     }
+        .container2 h2 {
+            color: rgb(123, 181, 41);
+        }
     .container3 {
-
+        color: lightblue;
+        background-color: blue;
+        border-bottom-left-radius: 50%;
+        border-bottom-right-radius: 50%;
+        border-top-right-radius: 0%;
     }
+        .container3 h2 {
+            color: lightblue;
+        }
 
 }
