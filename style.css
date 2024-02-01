@@ -454,26 +454,61 @@ a:hover {
     p {
         color: orangered;
         -webkit-text-stroke: 0px;
-        font-size: 333pt;
+        font-size: 888%;
         line-height: 55%;
     }
     h2 {
         margin-top: 5%;
     }
+    h3 {
+        font-size: 33pt;
+        opacity: 50%;
+        animation-name: appear2;
+        
+    }
 
     p:hover {
-
+        font-size: 888%;
+        line-height: 55%;
+        -webkit-text-stroke: 0px;
     }
 
     #proj2 {
-        font-size: 77pt;
+        font-size: 66pt;
     }
     #proj3 {
-        font-size: 77pt;
+        font-size: 66pt;
     }
     #proj4 {
-        font-size: 77pt;
+        font-size: 66pt;
     }
 
+    @keyframes appear2 {
+        from {
+            opacity: 0;
+        }
+    
+        to {
+            opacity: 50;
+        }
+      }
+
+    .abstract {
+        flex-direction: column;
+    }
+
+    .container {
+        color: lightcoral;
+        background-color: red;
+        border-top-left-radius: 50%;
+        border-top-right-radius: 50%;
+        border-bottom-left-radius: 0%;
+    }
+    .container2 {
+
+    }
+    .container3 {
+
+    }
 
 }
