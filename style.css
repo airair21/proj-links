@@ -19,17 +19,29 @@
 
 body {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     transition: .5s;
     font-family: 'PressuraMono';
+    background-color: rgb(123, 181, 41);
 }
 h2 {
     margin-top: 10%;
     transition: .5s;
 
-    animation-duration: 3s;
+    animation-duration: 1.5s;
     animation-name: slidein;
-  }
+}
+
+.proj {
+    margin-top: 5%;
+    text-align: center;
+}
+
+.abstract {
+    display: flex;
+    flex-direction: row;
+    height: 80%;
+}
   
   @keyframes slidein {
     from {
@@ -46,7 +58,7 @@ h2 {
 
 .container{
     width: 33.34%;
-    height: 100vh;
+    height: 85vh;
     color: white;
     background-color: black;
     /* border: 10px solid salmon; */
@@ -128,29 +140,30 @@ h2 {
     transition: .5s;
 }
 
-    /* .container:hover #a1 {
+    .container:hover #a1 {
         width: 15%;
         background-color:rgb(242, 3, 47);
         rotate: 90deg;
-        height: 22%;
+        height: 42%;
         border-radius: 33%;
-    } */
-    /* .container:hover #a2 {
-        width: 15%;
+        margin-top: 10%;
+    }
+    .container:hover #a2 {
+        width: 8%;
         background-color:rgb(242, 3, 47);
         rotate: 90deg;
         height: 22%;
         border-radius: 33%;
     }
     .container:hover #a3 {
-        width: 15%;
+        width: 8%;
         background-color:rgb(242, 3, 47);
         rotate: 90deg;
         height: 22%;
         border-radius: 33%;
     }
     .container:hover #a4 {
-        width: 15%;
+        width: 8%;
         background-color:rgb(242, 3, 47);
         rotate: 90deg;
         height: 22%;
@@ -160,9 +173,9 @@ h2 {
         width: 15%;
         background-color:rgb(242, 3, 47);
         rotate: 90deg;
-        height: 22%;
+        height: 42%;
         border-radius: 33%;
-    } */
+    }
     .container:hover h2 {
         color: rgb(123, 181, 41);
     }
@@ -173,7 +186,7 @@ h2 {
        width: 100%;
     }
 
-       @keyframes atoveg {
+       /* @keyframes atoveg {
         0% {
             transform: background-color:rgb(222, 242, 3);
         }
@@ -186,14 +199,14 @@ h2 {
                 rotate: 90deg;
                 height: 22%;
         }
-       }
+       } */
     
 
 
 
 .container2{
     width: 33.34%;
-    height: 100vh;
+    height: 85vh;
     color: white;
     background-color: black;
     /* border: 10px solid salmon; */
@@ -270,51 +283,57 @@ h2 {
     transition: .5s;
 }
 
-.container2:hover #b1 {
-    width: 15%;
-    background-color:rgb(244, 93, 0);
-    rotate: 90deg;
-    height: 10%;
-    border-radius: 33%;
-}
-.container2:hover #b2 {
-    width: 15%;
-    background-color:rgb(244, 93, 0);
-    rotate: 90deg;
-    height: 20%;
-    border-radius: 33%;
-}
-.container2:hover #b3 {
-    width: 15%;
-    background-color:rgb(244, 93, 0);
-    rotate: 90deg;
-    height: 10%;
-    border-radius: 33%;
-}
-.container2:hover #b4 {
-    width: 15%;
-    background-color:rgb(244, 93, 0);
-    rotate: 90deg;
-    height: 20%;
-    border-radius: 33%;
-}
-.container2:hover #b5 {
-    width: 15%;
-    background-color:rgb(244, 93, 0);
-    rotate: 90deg;
-    height: 10%;
-    border-radius: 33%;
-}
-.container2:hover h2 {
-    color: rgb(123, 181, 41);
-}
+    .container2:hover #b1 {
+        width: 10%;
+        background-color:rgb(244, 93, 0);
+        rotate: 90deg;
+        height: 10%;
+        border-radius: 33%;
+        margin-top: 10%;
+    }
+    .container2:hover #b2 {
+        width: 15%;
+        background-color:rgb(244, 93, 0);
+        rotate: 90deg;
+        height: 20%;
+        border-radius: 33%;
+    }
+    .container2:hover #b3 {
+        width: 10%;
+        background-color:rgb(244, 93, 0);
+        rotate: 90deg;
+        height: 10%;
+        border-radius: 33%;
+    }
+    .container2:hover #b4 {
+        width: 15%;
+        background-color:rgb(244, 93, 0);
+        rotate: 90deg;
+        height: 20%;
+        border-radius: 33%;
+    }
+    .container2:hover #b5 {
+        width: 10%;
+        background-color:rgb(244, 93, 0);
+        rotate: 90deg;
+        height: 10%;
+        border-radius: 33%;
+    }
+    .container2:hover h2 {
+        color: rgb(123, 181, 41);
+    }
+    .bog:hover, .container2:hover {
+        /* animation: atoveg; */
+        border-radius: 20%;
+        width: 100%;
+     }
 
 
 
 
 .container3{
     width: 33.34%;
-    height: 100vh;
+    height: 85vh;
     color: white;
     background-color: black;
     /* border: 10px solid salmon; */
@@ -397,6 +416,7 @@ h2 {
     rotate: 90deg;
     height: 10%;
     border-radius: 33%;
+    margin-top: 10%;
 }
 .container3:hover #c2 {
     width: 10%;
@@ -429,3 +449,9 @@ h2 {
 .container3:hover h2 {
     color: rgb(123, 181, 41);
 }
+
+.cog:hover, .container3:hover {
+       /* animation: atoveg; */
+       border-radius: 20%;
+       width: 100%;
+    }
