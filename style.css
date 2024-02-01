@@ -453,10 +453,12 @@ a:hover {
     }
     p {
         color: orangered;
-        -webkit-text-stroke: 0px;
+        -webkit-text-stroke: 3px orange;
         font-size: 999%;
         line-height: 55%;
         overflow-wrap: break-word;
+
+        text-align: justify;
     }
     h2 {
         margin-top: 5%;
@@ -464,7 +466,9 @@ a:hover {
     h3 {
         font-size: 22pt;
         opacity: 50%;
+        animation-duration: 10s;
         animation-name: appear2;
+        transition: .5s;
 
     }
 
@@ -472,6 +476,7 @@ a:hover {
         font-size: 888%;
         line-height: 55%;
         -webkit-text-stroke: 0px;
+        color: orangered;
     }
 
     #proj2 {
