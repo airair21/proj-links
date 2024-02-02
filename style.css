@@ -142,71 +142,6 @@ a:hover {
     padding-left: 5%;
 }
 
-#a1 {
-    background-color:rgb(222, 242, 3);
-    /* border-color: blueviolet; */
-    /* border: 10px solid pink; */
-
-    width: 30%;
-    /* flex-grow: 1; */
-    height: 7%;
-    margin-top: 30%;
-    align-self: center;
-    border-radius: 20%;
-    transition: .5s;
-}
-#a2 {
-    background-color:rgb(222, 242, 3);
-    /* border-color: blueviolet; */
-    /* border: 10px solid pink; */
-
-    width: 60%;
-    /* flex-grow: 1; */
-    height: 14%;
-    /* margin-top: 20%; */
-    align-self: center;
-    border-radius: 20%;
-    transition: .5s;
-}
-#a3 {
-    background-color:rgb(222, 242, 3);
-    /* border-color: blueviolet; */
-    /* border: 10px solid pink; */
-
-    width: 75%;
-    /* flex-grow: 1; */
-    height: 14%;
-    /* margin-top: 20%; */
-    align-self: center;
-    border-radius: 20%;
-    transition: .5s;
-}
-#a4 {
-    background-color:rgb(222, 242, 3);
-    /* border-color: blueviolet; */
-    /* border: 10px solid pink; */
-
-    width: 75%;
-    /* flex-grow: 1; */
-    height: 14%;
-    /* margin-top: 20%; */
-    align-self: center;
-    border-radius: 20%;
-    transition: .5s;
-}
-#a5 {
-    background-color:rgb(222, 242, 3);
-    /* border-color: blueviolet; */
-    /* border: 10px solid pink; */
-
-    width: 55%;
-    /* flex-grow: 1; */
-    height: 7%;
-    /* margin-top: 20%; */
-    align-self: center;
-    border-radius: 20%;
-    transition: .5s;
-}
 
    
     .container:hover h2 {
@@ -262,70 +197,7 @@ a:hover {
     justify-content: center;
 }
 
-#b1 {
-    background-color:rgb(222, 242, 3);
 
-    /* border: 10px solid pink; */
-
-    width: 30%;
-    /* flex-grow: 1; */
-    height: 7%;
-    margin-top: 30%;
-    align-self: center;
-    border-radius: 20%;
-    transition: .5s;
-}
-#b2 {
-    background-color:rgb(222, 242, 3);
-
-    /* border: 10px solid pink; */
-
-    width: 60%;
-    /* flex-grow: 1; */
-    height: 14%;
-    /* margin-top: 20%; */
-    align-self: center;
-    border-radius: 20%;
-    transition: .5s;
-}
-#b3 {
-    background-color:rgb(222, 242, 3);
-
-    /* border: 10px solid pink; */
-
-    width: 75%;
-    /* flex-grow: 1; */
-    height: 14%;
-    /* margin-top: 20%; */
-    align-self: center;
-    border-radius: 20%;
-    transition: .5s;
-}
-#b4 {
-    background-color:rgb(222, 242, 3);
-
-    /* border: 10px solid pink; */
-
-    width: 75%;
-    /* flex-grow: 1; */
-    height: 14%;
-    /* margin-top: 20%; */
-    align-self: center;
-    border-radius: 20%;
-    transition: .5s;
-}
-#b5 {
-    background-color:rgb(222, 242, 3);
-    /* border: 10px solid pink; */
-
-    width: 55%;
-    /* flex-grow: 1; */
-    height: 7%;
-    /* margin-top: 20%; */
-    align-self: center;
-    border-radius: 20%;
-    transition: .5s;
-}
 
    
     .container2:hover h2 {
@@ -359,71 +231,7 @@ a:hover {
     justify-content: center;
 }
 
-#c1 {
-    background-color:rgb(222, 242, 3);
 
-    /* border: 10px solid pink; */
-
-    width: 30%;
-    /* flex-grow: 1; */
-    height: 7%;
-    margin-top: 30%;
-    align-self: center;
-    border-radius: 20%;
-    transition: .5s;
-}
-#c2 {
-    background-color:rgb(222, 242, 3);
-
-    /* border: 10px solid pink; */
-
-    width: 60%;
-    /* flex-grow: 1; */
-    height: 14%;
-    /* margin-top: 20%; */
-    align-self: center;
-    border-radius: 20%;
-    transition: .5s;
-}
-#c3 {
-    background-color:rgb(222, 242, 3);
-
-    /* border: 10px solid pink; */
-
-    width: 75%;
-    /* flex-grow: 1; */
-    height: 14%;
-    /* margin-top: 20%; */
-    align-self: center;
-    border-radius: 20%;
-    transition: .5s;
-}
-#c4 {
-    background-color:rgb(222, 242, 3);
-
-    /* border: 10px solid pink; */
-
-    width: 75%;
-    /* flex-grow: 1; */
-    height: 14%;
-    /* margin-top: 20%; */
-    align-self: center;
-    border-radius: 20%;
-    transition: .5s;
-}
-#c5 {
-    background-color:rgb(222, 242, 3);
-
-    /* border: 10px solid pink; */
-
-    width: 55%;
-    /* flex-grow: 1; */
-    height: 7%;
-    /* margin-top: 20%; */
-    align-self: center;
-    border-radius: 20%;
-    transition: .5s;
-}
 
 
 .container3:hover h2 {
