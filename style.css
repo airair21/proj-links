@@ -132,11 +132,15 @@ a:hover {
     justify-content: center;
 }
 
-/* .topspace {
-    height: 30%;
-    background-color: blue;
+.topspace {
+    height: 15%;
+    /* background-color: blue; */
     display: flex;
-} */
+    color: white;
+    text-align: center;
+    justify-content: center;
+    padding-left: 5%;
+}
 
 #a1 {
     background-color:rgb(222, 242, 3);
